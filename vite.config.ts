@@ -5,10 +5,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Served from https://hokihk.github.io/aurvex-tech/ — a GitHub Pages project
-    // site lives under a sub-path, so built asset URLs must carry it.
-    // Change to '/' if the site later moves to its own domain root.
-    base: '/aurvex-tech/',
+    // Vercel serves the site from the domain root, so assets resolve from '/'.
+    // (A GitHub Pages *project* site would need '/aurvex-tech/' instead — the
+    // two hosts cannot share one base value.)
+    base: '/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {

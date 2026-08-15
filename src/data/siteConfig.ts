@@ -16,7 +16,7 @@ export const SITE = {
    * index.html. When the aurvex.tech domain is acquired, update this, the tags
    * in index.html, and `base` in vite.config.ts together.
    */
-  url: 'https://hokihk.github.io/aurvex-tech',
+  url: 'https://aurvex-tech.vercel.app',
 
   /** General inquiries inbox. Also the fallback destination for the project form. */
   email: 'contact@aurvex.tech',
