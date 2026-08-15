@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <!--
+    Source for the social sharing card.
+    Export this to public/og-image.png at exactly 1200x630 — social crawlers
+    (LinkedIn, X, Slack, WhatsApp) do not render SVG.
+  -->
+  <rect width="1200" height="630" fill="#070707"/>
+
+  <!-- Ambient cobalt glow, mirroring the hero -->
+  <defs>
+    <radialGradient id="glow" cx="0.72" cy="0.35" r="0.55">
+      <stop offset="0%" stop-color="#0052FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0052FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#A3A3A3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Architectural rings -->
+  <circle cx="960" cy="250" r="150" stroke="#22252A" stroke-width="2" fill="none"/>
+  <circle cx="960" cy="250" r="196" stroke="#0052FF" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <circle cx="960" cy="250" r="104" stroke="#FFFFFF" stroke-width="1" fill="none" opacity="0.12"/>
+
+  <!-- Brand mark -->
+  <rect x="80" y="72" width="52" height="52" rx="7" fill="#F7F7F5"/>
+  <text x="106" y="111" font-family="Syne, Arial, sans-serif" font-size="34" font-weight="800" text-anchor="middle" fill="#070707">A</text>
+  <text x="150" y="107" font-family="Syne, Arial, sans-serif" font-size="30" font-weight="700" letter-spacing="2" fill="#F7F7F5">AURVEX<tspan fill="#0052FF">TECH</tspan></text>
+
+  <!-- Eyebrow -->
+  <rect x="80" y="255" width="44" height="2" fill="#0052FF"/>
+  <text x="140" y="262" font-family="Arial, sans-serif" font-size="17" font-weight="700" letter-spacing="6" fill="#8A8A8A">TECHNOLOGY / DESIGN / STRATEGY</text>
+
+  <!-- Headline -->
+  <text x="80" y="360" font-family="Syne, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="url(#fade)">WE BUILD DIGITAL</text>
+  <text x="80" y="445" font-family="Syne, Arial, sans-serif" font-size="82" font-weight="800" letter-spacing="-3" fill="url(#fade)">EXPERIENCES<tspan fill="#0052FF">.</tspan></text>
+
+  <!-- Baseline rule + pillars -->
+  <rect x="80" y="520" width="1040" height="1" fill="#FFFFFF" opacity="0.1"/>
+  <text x="80" y="562" font-family="Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="4" fill="#A3A3A3">STRATEGY<tspan fill="#0052FF" dx="18">×</tspan><tspan dx="18">DESIGN</tspan><tspan fill="#0052FF" dx="18">×</tspan><tspan dx="18">TECHNOLOGY</tspan><tspan fill="#0052FF" dx="18">×</tspan><tspan dx="18">GROWTH</tspan></text>
+</svg>

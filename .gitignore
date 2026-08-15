@@ -1,0 +1,11 @@
+# Local agent/tooling config — machine-specific, contains local absolute paths
+.claude/
+
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
